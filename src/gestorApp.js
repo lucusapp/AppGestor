@@ -1,4 +1,4 @@
-export const gestorApp = ()=>{
+export const GestorApp = ()=>{
     return(
         <div>
             <h1>GestorApp</h1>
