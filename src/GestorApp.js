@@ -1,7 +1,10 @@
-import { AppRouter } from "./routers/AppRouter"
+import { AuthProvider } from "./auth/index.js"
+import { AppRouter } from "./routers/AppRouter.jsx"
 
 export const GestorApp = ()=>{
     return(
- <AppRouter />
+<AuthProvider>
+    <AppRouter />
+</AuthProvider>
     )
 }
